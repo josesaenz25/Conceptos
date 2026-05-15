@@ -55,7 +55,8 @@ def load_data(path: str) -> pd.DataFrame:
         st.warning(f"No se pudo cargar el archivo '{path}'. Verifica que exista en la carpeta. Detalle: {e}")
         return pd.DataFrame()
 
-df = load_data("C:/Users/psjs1/OneDrive/Documentos/Licenciatura Casco Sto Tomas/TAREAS/6TO SEMESTRE/Sistemas de información/Conceptos/durango.csv")
+df = load_data("durango.csv")
+
 
 # ---------------------------------------------------------
 # SIDEBAR - NAVEGACIÓN POR FASES
